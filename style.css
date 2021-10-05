@@ -23,6 +23,15 @@ html,body{
   height:297mm;
   width:210mm;
 }
+img {
+  max-width: 50%;
+  max-height: 50%;
+}
+img:hover {
+  transform: scale(2);
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
+}
 @media print {
   body{
     width: 21cm;
